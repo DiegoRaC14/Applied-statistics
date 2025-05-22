@@ -1,2 +1,5 @@
 # Applied_statistics
-Collection of econometrics and inference methods projects
+Collection of real-world applied statistics projects
+
+
+Collection of regression analysis and inference methods projects

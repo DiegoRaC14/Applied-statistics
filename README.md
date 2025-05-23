@@ -4,7 +4,6 @@ Collection of real-world applied statistics projects
 ## 📋 Overview
 
 This repository collects a set Collection of regression analysis and inference methods projects
-This repository was created as a way to learn and understand different concepts that are useful in data science, machine learning, and artificial intelligence (AI). It focuses on applying many techniques and methods to solve different real-world problems. 
 
 These projects include includes codes, visualizations, explanaitions and in some cases, reports.
 
@@ -19,10 +18,13 @@ These projects include includes codes, visualizations, explanaitions and in some
 The packages and datasets are mentioned below.
 
 - **gamair**:
-    - **hubble**
+    - hubble
+- **bootstrap**
+    - hormone
 - **ISLR**
     - Default
-  Additionally, there was used a .txt file that contains data about experience years and salaries.
+    - 
+  Additionally, there is used a .txt file that contains data about experience years and salaries.
 - **profsalary.txt**
 
 ## 📂 Folders

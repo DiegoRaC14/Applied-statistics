@@ -2,9 +2,6 @@
 # -------------- Simple Linear regression --------------
 
 
-### 1. Estimate the age of the universe based on data from Hubble Space Telescope ### 
-
-
 # Load the package into the session
 library(gamair)
 
@@ -306,6 +303,5 @@ grid(col="gray44")
 # Check residuals and fit diagnostics
 par(mfrow = c(2, 2))
 plot(model_origin)
-
 
 

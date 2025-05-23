@@ -23,7 +23,7 @@ The packages and datasets are mentioned below.
     - hormone
 - **ISLR**
     - Default
-    - 
+  
   Additionally, there is used a .txt file that contains data about experience years and salaries.
 - **profsalary.txt**
 

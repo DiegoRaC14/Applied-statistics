@@ -39,7 +39,7 @@ The packages and datasets are mentioned below.
 - **LaTeX**: Activity reports
 
 - **R Libraries**:
-    - **pandas**: Manage DataFrames
+    - **ggplot**: Create visualizations
     - 
 ## 📌 Notes
 

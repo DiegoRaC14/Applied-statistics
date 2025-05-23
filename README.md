@@ -25,16 +25,18 @@ The packages and datasets are mentioned below.
 - **gamair**:
     - **hubble**
 
+  Additionally, there was used a .txt file that contains data about experience years and salaries.
+- **profsalary.txt**
 
 ## 📂 Folders
 
-- 'AI\' – Artificial Intelligence projects.
+- 'Regression_analysis' – Regression analysis projects, it includes different approaches of regression: Simple linear, polynomial, logistic  
 
 
 ## 🛠️ Tools & Libraries
 
 - **R**: Programming language oriented on statistical analysis
-- **LaTeX**: Activity report
+- **LaTeX**: Activity reports
 
 - **R Libraries**:
     - **pandas**: Manage DataFrames

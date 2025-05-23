@@ -1,4 +1,4 @@
-# -------------- Activity 3: The Golden Ratio and Facial Beauty -------------- 
+# -------------- The Golden Ratio and Facial Beauty -------------- 
 
 # Golden ratio
 golden_ratio <- 1.618

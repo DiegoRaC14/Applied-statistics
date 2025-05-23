@@ -10,12 +10,8 @@ These projects include includes codes, visualizations, explanaitions and in some
 
 ## 🧠 Key Concepts
 
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Supervised learning
-- Machine learning
-- Topological Data Analysis (TDA)
-- Artificial Neural Networks 
+- Regression analysis
+- Confidence Intervals (CI)
 
 
 ## 📖 Datasets
@@ -24,7 +20,8 @@ The packages and datasets are mentioned below.
 
 - **gamair**:
     - **hubble**
-
+- **ISLR**
+    - Default
   Additionally, there was used a .txt file that contains data about experience years and salaries.
 - **profsalary.txt**
 

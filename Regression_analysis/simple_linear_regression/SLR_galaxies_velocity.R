@@ -11,6 +11,7 @@ library("latex2exp")
 data("hubble") # Load the data
 hubble # View the dataset
 ??hubble
+
 # Save important columns
 distance = hubble$x
 velocity = hubble$y

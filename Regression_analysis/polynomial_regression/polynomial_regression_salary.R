@@ -22,6 +22,11 @@ summary(lm_salary)
 par(mfrow=c(1,1))
 plot(x_experience, y_salary, xlab="Years of experience", ylab="Salary", 
      main="Years of experience vs Salary", col="blue")
+
+# Add subtitle
+subtitle <- TeX("$\\widehat{y}$ = 0.88345x + 48.50593")
+mtext(subtitle, side = 3, outer = TRUE, line = -4, font = 0.6, cex = 0.9, adj=0.55)
+
 grid()
 
 # Add the regression line (case 1)
@@ -55,7 +60,6 @@ plot(x_experience, y_salary, xlab="Years of experience", ylab="Salary",
 subtitle <- TeX(sprintf("$\\widehat{y}$ = %fx^2 + %fx + %f", 
                         beta2, beta1, beta0))
 mtext(subtitle, side = 3, outer = TRUE, line = -4, font = 0.6, cex = 0.9, adj=0.55)
-?mtext
 
 x_grid_sal <- seq(-1, 38, length.out=100)
 #y_grid_sal <- (-0.053316 * x_grid_sal^2) + (2.872275 * x_grid_sal) + 34.720498

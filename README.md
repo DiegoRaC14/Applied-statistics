@@ -3,9 +3,8 @@ Collection of real-world applied statistics projects
 
 ## 📋 Overview
 
-This repository collects a set Collection of regression analysis and inference methods projects
-
-These projects include includes codes, visualizations, explanaitions and in some cases, reports.
+This repository collects a set of regression analysis and inference methods projects. They all include a code, a report where there are deeply explained
+the insights obtanied from the dataset and in some cases the visualizations.
 
 ## 🧠 Key Concepts
 
@@ -24,12 +23,12 @@ The packages and datasets are mentioned below.
 - **ISLR**
     - Default
   
-  Additionally, there is used a .txt file that contains data about experience years and salaries.
+  Additionally, there was used a .txt file that containing data about experience years and salaries.
 - **profsalary.txt**
 
 ## 📂 Folders
 
-- 'Regression_analysis' – Regression analysis projects, it includes different approaches of regression: Simple linear, polynomial, logistic  
+- 'Regression_analysis' – Regression analysis projects, it includes different approaches of regression: Simple linear, polynomial, logistic and dummy variables
 
 
 ## 🛠️ Tools & Libraries
@@ -42,11 +41,11 @@ The packages and datasets are mentioned below.
     - 
 ## 📌 Notes
 
-Every dataset used is public and were obtained from free repositories.
+Every dataset used is public and was obtained from free repositories. Most of them were 
 
 ## 🎖️ Conclusions
 
-This repository contains different topics, which were useful during my process of getting deeper into the wonderful Data Science world. 
+This repository contains different topics, which were useful during my process of getting deeper understanding crucial concepts of statistics. Besides, every project was created considering a real-scenario. 
 
 ## 📎 Related work
 

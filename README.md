@@ -49,8 +49,7 @@ This repository contains different topics, which were useful during my process o
 
 ## 📎 Related work
 
-- [Applied statistics](https://github.com/DiegoRaC14/Data-science-projects): A collection of real-world applied statistics projects.
-
+- [Data Science projects](https://github.com/DiegoRaC14/Data-science-projects): Collection of my data science projects
 ---
 ## 🪅 Author
 

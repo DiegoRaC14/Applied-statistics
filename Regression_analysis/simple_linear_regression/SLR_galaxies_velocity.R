@@ -16,7 +16,7 @@ distance = hubble$x
 velocity = hubble$y
 
 
-# a) Plotting the scatterplot
+# 1) Plotting the scatterplot
 plot(x = distance, velocity, main = "Distance vs Velocity of 24 galaxies 
     (obtained from the Hubble Space Telescope)",xlab = "Distance (Mpc)", 
      ylab = "Velocity (Km/s)",pch = 19, col = "blue")
@@ -28,7 +28,7 @@ cor_galaxies <- cor(x= velocity, y = distance) # 0.8631815
 # X (distance) and response variable Y (velocity)
 
 
-# b) Linear regression model
+# 1.2) Linear regression model
 n <- length(distance) # number of observations
 
 distance_mean <- mean(distance) # Distance mean (12.05458)
@@ -113,7 +113,7 @@ par(mfrow=c(2,2))
 plot(lm_galaxies)
 
 
-# c) 95% confidence intervals for the slope and the intercept
+# 1.3) 95% confidence intervals for the slope and the intercept
 confidence_level <- 0.95
 significance_level <- 1 - confidence_level
 
@@ -134,7 +134,7 @@ round(262.4632,2)
 confint(lm_galaxies, level = 0.95)
 
 
-# d) Confidence and prediction bands --------------
+# 1.4) Confidence and prediction bands
 
 # The critical value in the t distribution with n-2 dof is 
 conf_level_90 <- 0.90
@@ -198,7 +198,7 @@ legend("topleft",
        col=c("green4", "blue", "darkred"), lwd=2, box.lwd=0, cex=0.8, 
        lty=c(2, 2, NA), pch=c(NA, NA, 16))
 
-# e) Hypothesis testing for F ratio
+# 1.2.6) Hypothesis test for F ratio
 
 # H0: Naive model (without predictor)
 # HA: Full model (including the predictor term)
@@ -206,7 +206,7 @@ legend("topleft",
 pval_fratio <- pf(q = F_ratio, 1, n-2, lower.tail= FALSE)
 # The p-value is extremely small! That indicates HUGE evidence to reject H0
 
-# f) ANOVA test
+# 1.5) ANOVA test
 
 # SST <- sum((velocity - velocity_mean)^2)
 # SSE <- sum((velocity - velocity_hat)^2)
@@ -238,7 +238,7 @@ print(anova_table)
 summary(aov(velocity ~ distance))
 anova(lm_galaxies)
 
-# g) Diagnostics plots to evaluate the validity of the model
+# 1.6) Diagnostics plots to evaluate the validity of the model
 par(mfrow=c(2,2))
 plot(lm_galaxies)
 

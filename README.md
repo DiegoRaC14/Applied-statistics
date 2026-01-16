@@ -38,7 +38,7 @@ The packages and datasets are mentioned below.
 
 - **R Libraries**:
     - **ggplot**: Create visualizations
-    - 
+      
 ## 📌 Notes
 
 Every dataset used is public and was obtained from free repositories. Most of them were 
